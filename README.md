@@ -24,3 +24,8 @@ after you give the player the money in the server.lua
 you add this.
 
 TriggerEvent('wirtschaft:logItemSell', xPlayer, xItem.name, xItem.count, price)
+## Donate:
+
+If you want to donate money, you support me a lot, it helps me to buy paid development environments or just to have a coffee or a beer. Also it is a great confirmation for me to see that you like my projects so much!
+
+[Paypal](https://www.paypal.com/pools/c/8qO8Xpf81J)
