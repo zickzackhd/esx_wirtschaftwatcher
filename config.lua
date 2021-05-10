@@ -1,0 +1,3 @@
+Config = {}
+
+Config.SaveAfterRestart = false
