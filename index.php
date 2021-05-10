@@ -28,11 +28,11 @@ try {
 
       var data = new google.visualization.DataTable();
       data.addColumn('number', 'Day');
-      data.addColumn('number', 'Bargeld');
-      data.addColumn('number', 'Bank');
-      data.addColumn('number', 'Firmengeld');
-      data.addColumn('number', 'Schwarzmoney');
-       data.addColumn('number', 'Duchschnitliches Gesamtgeld');
+      data.addColumn('number', 'Cash');
+      data.addColumn('number', 'Bank money');
+      data.addColumn('number', 'Society money');
+      data.addColumn('number', 'Black money');
+       data.addColumn('number', 'Average total money');
       data.addRows([
         <?php
             foreach ($conn->query($sql) as $i => $row) {
@@ -46,7 +46,7 @@ try {
       
       var options = {
         chart: {
-          title: 'FivelifeRP-Wirtschaft',
+          title: 'Economy',
           subtitle: 'Made by ZickZackHD'
         },
         width: 900,
